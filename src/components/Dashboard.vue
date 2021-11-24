@@ -102,7 +102,7 @@ export default {
             const res = req.json()
 
             //mensagem
-            this.msg = `Pedido N°${id} atualizado para ${option} !`
+            this.msg = `Pedido N°${id} atualizado para ${option}!`
 
             //apagando mensagem
             setTimeout(()=>this.msg='',3000)
