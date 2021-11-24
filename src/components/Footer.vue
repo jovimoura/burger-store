@@ -17,7 +17,7 @@ export default {
         border-top: 4px solid #111;
         color: #fcba03;
         display: flex;
-        height: 200px;
+        height: 15rem;
         justify-content: center;
         width: 100%;
     }

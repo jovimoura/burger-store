@@ -19,10 +19,11 @@ export default {
     #nav {
         background-color: #222;
         border-bottom: 4px solid #111;
-        padding: 15px 50px;
+        padding: 1.3rem 2rem;
         display: flex;
         justify-content: flex-end;
         align-items: center;
+        
     }
 
     #nav #logo-url {
@@ -31,18 +32,25 @@ export default {
     }
 
     #logo {
-        width: 40px;
-        height: 40px;
+        width: 3rem;
+        height: 3rem;
     }
 
     #nav a {
         color: #fcba03;
         text-decoration: none;
-        margin:12px;
+        margin:.8rem;
         transition: .5s;
     }
 
     #nav a:hover {
         color:#fff
+    }
+
+    @media (max-width:768px) {
+        #nav {
+            width: 100%;
+
+        }
     }
 </style>

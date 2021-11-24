@@ -110,27 +110,27 @@ export default {
 
 <style scoped>
     #burger-form {
-        max-width: 400px;
+        max-width: 10rem;
         margin: 0 auto;
     }
 
     .input-container {
         display: flex;
         flex-direction: column;
-        margin-bottom: 20px;
+        margin-bottom: 2rem;
     }
 
     label {
         font-weight: bold;
-        margin-bottom: 15px;
+        margin-bottom: 1.4rem;
         color: #222;
-        padding: 5px 10px;
+        padding: .4rem .7rem;
         border-left: 4px solid #fcba03;
     }
 
     input, select {
-        padding: 5px 10px;
-        width: 300px;
+        padding: .5rem .8rem;
+        width: 20rem
     }
 
     #opcionais-container {
@@ -146,7 +146,7 @@ export default {
         display: flex;
         align-items: flex-start;
         width: 50%;
-        margin-bottom: 20px;
+        margin-bottom: 1.2rem;
     }
 
     .checkbox-container span,
@@ -156,7 +156,7 @@ export default {
 
     .checkbox-container span {
         font-weight: bold;
-        margin-left: 6px;
+        margin-left: .5rem;
     }
 
     .submit-btn {
@@ -164,8 +164,8 @@ export default {
         color: #fcba03;
         font-weight: bold;
         border: 2px solid #222;
-        padding: 10px;
-        font-size: 16px;
+        padding: .7rem;
+        font-size: 1.2rem;
         margin: 0 auto;
         cursor: pointer;
         transition: .5s;
@@ -174,5 +174,11 @@ export default {
     .submit-btn:hover {
         background-color: transparent;
         color: #222;
+    }
+
+    @media (max-width:768px) {
+        #burger-form {
+            max-width: 100%;
+        }
     }
 </style>

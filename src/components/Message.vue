@@ -19,9 +19,9 @@ export default {
         background-color: #cce5ff;
         border: 2px solid #b8daff;
         border-radius: 5px;
-        margin: 30px auto;
-        max-width: 400px;
-        padding: 10px;
+        margin: 1.2rem auto;
+        max-width: 20rem;
+        padding: .8rem;
 
     }
 </style>
